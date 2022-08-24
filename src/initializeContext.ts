@@ -11,7 +11,7 @@ export default async function initializeContext(
 
   const insecureSkipTlsVerify =
     process.env.NODE_TLS_REJECT_UNAUTHORIZED === "0" ||
-    process.env.OPENSHIFT_SKIP_TLS_VERIFY === '1';
+    process.env.OPENSHIFT_SKIP_TLS_VERIFY === "1";
 
   context.logger.info(
     {
