@@ -2,9 +2,12 @@
   "name": "@jupiterone/graph-openshift",
   "version": "0.1.6",
   "description": "A JupiterOne managed integration for https://www.openshift.com/",
-  "main": "dist/index.js",
-  "repository": "https://github.com/jupiterone-io/graph-openshift",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupiterOne/graph-openshift"
+  },
   "license": "SEE LICENSE IN LICENSE",
+  "main": "dist/index.js",
   "files": [
     "LICENSE",
     "dist"

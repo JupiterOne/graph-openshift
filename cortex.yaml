@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: '@jupiterone/graph-openshift'
+  description: A JupiterOne managed integration for https://www.openshift.com/
+  x-cortex-git:
+    github:
+      repository: JupiterOne/graph-openshift
+  x-cortex-owners:
+    - type: group
+      name: JupiterOne/integrations
+  x-cortex-service-groups: tier-4
+  x-cortex-tag: '@jupiterone/graph-openshift'
